@@ -1,7 +1,6 @@
 body{
-    background-color: #F7E7DC;
-background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-color: #f7e7dc;
+background-image: url("./arches.png");
 }
 
 .title{
@@ -69,6 +68,6 @@ li{
 footer{
     display: flex;
     justify-content: center;
-    padding-top: 200px;
-    color: gray;
+    /* padding-top: 200px; */
+    color: #758694;
 }
