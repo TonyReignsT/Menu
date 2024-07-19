@@ -4,7 +4,7 @@ export default function Content({content}){
 
     return(
         <div className='contentContainer'>
-            {content ? <p className='content'>{content}</p>  : <p className='defaultContent'>Select your favorite ProgrammingLanguage.</p>}
+            {content ? <p className='content'>{content}</p>  : <p className='defaultContent'>Click on a Programming Language.</p>}
         </div>
     )
 }
