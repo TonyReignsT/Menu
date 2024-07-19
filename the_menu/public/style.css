@@ -1,0 +1,74 @@
+body{
+    background-color: #F7E7DC;
+background-image: url("https://www.transparenttextures.com/patterns/dimension.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #758694;
+}
+ 
+.item{
+    margin: 10px;
+    border: 1px solid red;
+    padding: 5px;
+}
+/* Titles Classes */
+.titleContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titleHeadings{
+    border: 1px solid #758694;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #758694;
+    
+}
+.titleHeadings:hover {
+    background-color: #758694;
+    color: #fff;
+    border: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* Content */   
+.contentContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    border: 2px solid #758694;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #758694;
+}
+
+.content:hover{
+    background-color: #758694;
+    color: #fff;
+}
+
+.defaultContent{
+    display: flex;
+    justify-content: center;
+    color: #758694;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    color: gray;
+}
